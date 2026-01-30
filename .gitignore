@@ -1,0 +1,31 @@
+# Environment files
+.env
+
+# SSL certificates
+nginx/ssl/*.pem
+nginx/ssl/*.key
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build files
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backend temp files
+backend/tmp/
+
+# GitHub Copilot instructions
+copilot-instructions.md
