@@ -64,10 +64,10 @@ This project is run via Docker Compose, wrapped by a Makefile.
 ### Start
 ```bash
 make up
+```
 
 The app will be available at:
-
-```text
+```bash
 https://localhost:8443
 ```
 
@@ -77,34 +77,15 @@ Tip: to see the full command list with descriptions:
 make help
 ```
 
-## API documentation
-
-- `API_CONTRACT.md` — high-level API surface and conventions
-
-## Testing
-
-Quick endpoint regression script:
-
-    bash backend/scripts/test-users.sh
-
-If your setup requires it, exec into the backend container first and run it there.
-
 ## Database and performance notes
 
 SQLite is initialized from a schema file and runs idempotently (safe to re-run on startup). Match history queries are supported by indexes so history/stats endpoints don’t degrade as data grows.
 
-## Security notes (practical, not theoretical)
+## Security notes
 
 - User data is sanitized before being returned publicly (only “safe” fields leave the backend).
 - Private endpoints require authentication; public endpoints return only safe representations.
 - The goal is not “it works”, but “it works without leaking”.
-
-## What I’d improve next (production-minded)
-
-- CI pipeline (lint + typecheck + tests + container build checks on every PR).
-- Move from bash smoke tests to integration tests.
-- Proper migrations tooling for evolving the SQLite schema cleanly.
-- Rate limiting / abuse protections depending on deployment context.
 
 ## Credits
 
