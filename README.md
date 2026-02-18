@@ -93,7 +93,7 @@ SQLite is initialized from a schema file and runs idempotently (safe to re-run o
   <a href="https://github.com/CBOcoding"><img src="https://github.com/CBOcoding.png" width="50"/></a>
   <a href="https://github.com/Gabriscript"><img src="https://github.com/Gabriscript.png" width="50"/></a>
   <a href="https://github.com/xith13n"><img src="https://github.com/xith13n.png" width="50"/></a>
-  <a href="https://github.com/mdheuser"><img src="https://github.com/mdheuser" width="50"/></a>
+  <a href="https://github.com/mdheuser"><img src="https://github.com/mdheuser.png" width="50"/></a>
 </div>
 
 My primary ownership areas were user management and stats dashboards (details above).
