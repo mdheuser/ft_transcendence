@@ -4,6 +4,17 @@ A containerized Pong web platform built as a team capstone in the 42 Network cur
 
 This repository is intentionally “skills-forward”: authentication, data integrity, safe serialization, REST API contracts, persistent match history, and dashboards that turn raw events into user-facing stats.
 
+## Authors
+
+<div>
+  <a href="https://github.com/CBOcoding"><img src="https://github.com/CBOcoding.png" width="50"/></a>
+  <a href="https://github.com/Gabriscript"><img src="https://github.com/Gabriscript.png" width="50"/></a>
+  <a href="https://github.com/xith13n"><img src="https://github.com/xith13n.png" width="50"/></a>
+  <a href="https://github.com/mdheuser"><img src="https://github.com/mdheuser.png" width="50"/></a>
+</div>
+
+My primary ownership areas were user management and stats dashboards.
+
 ## Demo
 
 Live: TODO  
@@ -87,15 +98,5 @@ SQLite is initialized from a schema file and runs idempotently (safe to re-run o
 - Private endpoints require authentication; public endpoints return only safe representations.
 - The goal is not “it works”, but “it works without leaking”.
 
-## Credits
-
-<div>
-  <a href="https://github.com/CBOcoding"><img src="https://github.com/CBOcoding.png" width="50"/></a>
-  <a href="https://github.com/Gabriscript"><img src="https://github.com/Gabriscript.png" width="50"/></a>
-  <a href="https://github.com/xith13n"><img src="https://github.com/xith13n.png" width="50"/></a>
-  <a href="https://github.com/mdheuser"><img src="https://github.com/mdheuser.png" width="50"/></a>
-</div>
-
-My primary ownership areas were user management and stats dashboards (details above).
 
 
