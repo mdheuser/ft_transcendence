@@ -89,11 +89,9 @@ SQLite is initialized from a schema file and runs idempotently (safe to re-run o
 
 ## Credits
 
-TODO !!!! Gabri, Claudio, Mark, Martin
+xith13n 
+
+[![xith13n](https://github.com/xith13n.png)](https://github.com/xith13n) [![CBOcoding](https://github.com/CBOcoding.png)](https://github.com/CBOcoding) [![Gabriscript](https://github.com/Gabriscript.png)](https://github.com/Gabriscript) [![mdheuser](https://github.com/mdheuser.png)](https://github.com/mdheuser)
 Built by a small team as part of Hive Helsinki (42 Network). My primary ownership areas were user management and stats dashboards (details above).
 
-## Contact
 
-LinkedIn: TODO  
-Email: TODO  
-Portfolio: TODO
